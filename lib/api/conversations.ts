@@ -155,6 +155,7 @@ export async function sendConversationTurn(
   const response = await fetch(
     `${getApiBaseUrl()}/conversations/${conversationId}/turns`,
     {
+      credentials: "include",
       method: "POST",
       headers: {
         "Content-Type": "application/json",

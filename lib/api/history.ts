@@ -268,6 +268,7 @@ export async function saveOptimizationDraft(
   const response = await fetch(
     `${getApiBaseUrl()}/optimizations/${optimizationId}/draft`,
     {
+      credentials: "include",
       method: "PATCH",
       headers: {
         "Content-Type": "application/json",
@@ -291,6 +292,7 @@ export async function duplicateOptimization(
   const response = await fetch(
     `${getApiBaseUrl()}/optimizations/${optimizationId}/duplicate`,
     {
+      credentials: "include",
       method: "POST",
       headers: persistenceHeaders(),
     },
@@ -319,6 +321,7 @@ export async function downloadHistoryExport(
   const response = await fetch(
     `${getApiBaseUrl()}/optimizations/${optimizationId}/exports`,
     {
+      credentials: "include",
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -348,6 +351,7 @@ async function postArchiveAction(
   const response = await fetch(
     `${getApiBaseUrl()}/optimizations/${optimizationId}/${action}`,
     {
+      credentials: "include",
       method: "POST",
       headers: persistenceHeaders(),
     },

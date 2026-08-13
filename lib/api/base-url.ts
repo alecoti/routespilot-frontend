@@ -1,4 +1,4 @@
-const DEFAULT_API_BASE_URL = "http://localhost:8000/api/v1";
+const DEFAULT_API_BASE_URL = "https://api.routespilot.eu/api/v1";
 
 export function getApiBaseUrl() {
   const configuredBaseUrl =

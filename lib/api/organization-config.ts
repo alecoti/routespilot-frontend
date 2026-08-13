@@ -180,6 +180,7 @@ export async function listLocationTemplates(includeArchived = false) {
   const response = await fetch(
     `${getApiBaseUrl()}/locations/templates?include_archived=${includeArchived}`,
     {
+      credentials: "include",
       headers: persistenceHeaders(),
       cache: "no-store",
     },
@@ -228,6 +229,7 @@ export async function listVehicleTemplates(includeArchived = false) {
   const response = await fetch(
     `${getApiBaseUrl()}/vehicles/templates?include_archived=${includeArchived}`,
     {
+      credentials: "include",
       headers: persistenceHeaders(),
       cache: "no-store",
     },

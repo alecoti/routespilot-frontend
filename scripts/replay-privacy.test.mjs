@@ -80,9 +80,9 @@ assert(
 );
 assert(
   vercel.includes('"value": "routesplan.it"') &&
-    vercel.includes('"destination": "https://routesplan.eu/$1"') &&
+    vercel.includes('"destination": "https://routespilot.eu/$1"') &&
     vercel.includes('"permanent": true'),
-  "routesplan.it must permanently redirect to routesplan.eu",
+  "routesplan.it must permanently redirect to routespilot.eu",
 );
 
 console.log("Replay privacy checks passed.");

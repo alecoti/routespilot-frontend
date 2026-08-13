@@ -54,6 +54,7 @@ try {
     recommendedComparisonPlanId: null,
     diagnostics: null,
     optimizationError: null,
+    optimizationDebugTiming: null,
     optimizationId: null,
     optimizationStatus: "idle",
     result: null,

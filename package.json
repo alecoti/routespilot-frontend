@@ -7,6 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
+    "typecheck": "tsc --noEmit",
     "test:qa": "node scripts/core-qa.test.mjs",
     "test:import": "node scripts/import-hardening.test.mjs",
     "test:conversation-capacity": "node scripts/conversation-capacity.test.mjs",
@@ -14,6 +15,7 @@
     "test:strategy": "node scripts/optimization-strategy.test.mjs",
     "test:validation": "node scripts/routing-validation.test.mjs",
     "test:analytics": "node scripts/analytics.test.mjs",
+    "test:auth-credentials": "node scripts/authenticated-api-credentials.test.mjs",
     "test:replay-privacy": "node scripts/replay-privacy.test.mjs"
   },
   "dependencies": {

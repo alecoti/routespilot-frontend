@@ -16,7 +16,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://routesplan.eu"),
+  metadataBase: new URL("https://routespilot.eu"),
   title: "RoutesPlan",
   description: "AI-assisted route optimization for small delivery fleets",
 };

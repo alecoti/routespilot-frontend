@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   description:
     "RoutesPlan helps small delivery fleets turn spreadsheets and real-world delivery instructions into optimized route plans with maps and exports.",
   alternates: {
-    canonical: "https://routesplan.eu",
+    canonical: "https://routespilot.eu",
   },
   openGraph: {
     title: "RoutesPlan | Plan tomorrow's deliveries in minutes",
@@ -15,7 +15,7 @@ export const metadata: Metadata = {
       "Upload your spreadsheet or describe the route problem. RoutesPlan helps build a validated delivery plan and calculates optimized routes.",
     siteName: "RoutesPlan",
     type: "website",
-    url: "https://routesplan.eu",
+    url: "https://routespilot.eu",
   },
   twitter: {
     card: "summary_large_image",
