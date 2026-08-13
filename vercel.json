@@ -8,7 +8,7 @@
           "value": "www.routespilot.eu"
         }
       ],
-      "destination": "https://routesplan.eu/$1",
+      "destination": "https://routespilot.eu/$1",
       "permanent": true
     },
     {
@@ -19,7 +19,7 @@
           "value": "routespilot.it"
         }
       ],
-      "destination": "https://routesplan.eu/$1",
+      "destination": "https://routespilot.eu/$1",
       "permanent": true
     },
     {
@@ -30,7 +30,18 @@
           "value": "www.routespilot.it"
         }
       ],
-      "destination": "https://routesplan.eu/$1",
+      "destination": "https://routespilot.eu/$1",
+      "permanent": true
+    },
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "routesplan.eu"
+        }
+      ],
+      "destination": "https://routespilot.eu/$1",
       "permanent": true
     },
     {
@@ -41,7 +52,7 @@
           "value": "www.routesplan.eu"
         }
       ],
-      "destination": "https://routesplan.eu/$1",
+      "destination": "https://routespilot.eu/$1",
       "permanent": true
     },
     {
@@ -52,7 +63,7 @@
           "value": "routesplan.it"
         }
       ],
-      "destination": "https://routesplan.eu/$1",
+      "destination": "https://routespilot.eu/$1",
       "permanent": true
     },
     {
@@ -63,7 +74,7 @@
           "value": "www.routesplan.it"
         }
       ],
-      "destination": "https://routesplan.eu/$1",
+      "destination": "https://routespilot.eu/$1",
       "permanent": true
     }
   ]
