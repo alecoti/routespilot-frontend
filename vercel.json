@@ -5,10 +5,10 @@
       "has": [
         {
           "type": "host",
-          "value": "www.routesplan.eu"
+          "value": "www.routespilot.eu"
         }
       ],
-      "destination": "https://routesplan.eu/$1",
+      "destination": "https://routespilot.eu/$1",
       "permanent": true
     },
     {
@@ -16,10 +16,10 @@
       "has": [
         {
           "type": "host",
-          "value": "routesplan.it"
+          "value": "routespilot.it"
         }
       ],
-      "destination": "https://routesplan.eu/$1",
+      "destination": "https://routespilot.eu/$1",
       "permanent": true
     },
     {
@@ -27,10 +27,10 @@
       "has": [
         {
           "type": "host",
-          "value": "www.routesplan.it"
+          "value": "www.routespilot.it"
         }
       ],
-      "destination": "https://routesplan.eu/$1",
+      "destination": "https://routespilot.eu/$1",
       "permanent": true
     }
   ]
