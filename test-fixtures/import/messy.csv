@@ -1,0 +1,14 @@
+Customer,Delivery Address,Weight,From,To,Service Time,Extra
+"  Rossi SRL  "," Via Roma 24, Bologna ",120,8:00,9:00,15,first duplicate
+
+Rossi SRL,"Via Roma 24, Bologna",120,08:30,10:00,15,second duplicate
+Missing Address,,50,09:00,10:00,5,missing address
+Bad Number,Via D Azeglio 1 Bologna,abc,09:00,10:00,5,bad demand
+Negative Load,Via Farini 1 Bologna,-2,09:00,10:00,5,negative demand
+Bad Time,Via Ugo Bassi 1 Bologna,10,25:00,10:00,5,bad start time
+Incomplete Window,Via San Felice 1 Bologna,10,09:00,,5,missing end
+Window Order,Via Zamboni 1 Bologna,10,12:00,11:00,5,end before start
+Bad Service,Via Irnerio 1 Bologna,10,09:00,10:00,2.5,bad service time
+Negative Service,Via Rizzoli 1 Bologna,10,09:00,10:00,-1,negative service time
+Duplicate Name,Via A 1 Bologna,1,09:00,10:00,1,same name different address
+Duplicate Name,Via B 1 Bologna,1,09:00,10:00,1,same name different address
