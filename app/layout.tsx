@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Script from "next/script";
 import { Geist, Inter } from "next/font/google";
+import type { ReactNode } from "react";
 import "./globals.css";
 
 import { ReplayProvider } from "@/components/replay/replay-provider";
@@ -21,7 +22,7 @@ export const metadata: Metadata = {
   description: "AI-assisted route optimization for small delivery fleets",
 };
 
-export default function RootLayout({ children }: LayoutProps<"/">) {
+export default function RootLayout({ children }: { children: ReactNode }) {
   const umamiEnabled =
     process.env.NEXT_PUBLIC_UMAMI_ENABLED?.trim().toLowerCase() === "true";
   const umamiScriptUrl = process.env.NEXT_PUBLIC_UMAMI_SCRIPT_URL;
