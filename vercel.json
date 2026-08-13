@@ -5,6 +5,17 @@
       "has": [
         {
           "type": "host",
+          "value": "www.routesplan.eu"
+        }
+      ],
+      "destination": "https://routesplan.eu/$1",
+      "permanent": true
+    },
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
           "value": "routesplan.it"
         }
       ],
